@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include "Addition.h"
 
 int main()
 {
     std::cout << "Welcome to Calculator\n";
+    Addition addition;
+    int number1, number2;
+
+    std::cout << "Input two number to Sum: \n";
+    std::cin >> number1 >> number2;
+    std::cout << "The sum is:" << addition.Sum(number1, number2);
+
 }
 
 // Programı çalıştır: Ctrl + F5 veya Hata Ayıkla > Hata Ayıklamadan Başlat menüsü
